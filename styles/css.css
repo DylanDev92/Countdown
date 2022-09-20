@@ -31,6 +31,12 @@ header h1 {
   color: #3D5A80;
 }
 
+.main-div .counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .main-div button {
   background-color: #293241;
   color: #E0FBFC;

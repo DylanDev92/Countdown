@@ -30,6 +30,10 @@ header {
     border-radius: 10%;
     color: #3D5A80;
 
+    .counter {
+        display: flex;
+    }
+
     button {
         background-color: #293241;
         color:  #E0FBFC;

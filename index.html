@@ -9,21 +9,26 @@
 </head>
 <body>
     <header>
-        <h1>Countdowngit</h1>
+        <h1>Countdown</h1>
     </header>
     <div class="main-div">
         <div>
             <h2>Countdown</h2>
         </div>
         <div class="counter">
-            <h1>00:00:00</h1>
+            <h1 id="hours-text">00</h1> <h1>:</h1>
+            <h1 id="minutes-text">00</h1> <h1>:</h1>
+            <h1 id="seconds-text">00</h1>
         </div>
         <div class="bottom">
-            <button>Click to countdown</button>
+            <button onclick="onClickEvent()">Click to countdown</button>
         </div>
     </div>
     <footer>
         <h5>| Made by Dylan |</h5>
     </footer>
 </body>
+
+<script src="/index.js"></script>
+
 </html>
